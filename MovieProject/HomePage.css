@@ -1,0 +1,53 @@
+#imgTry {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px; */
+    margin: auto;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  #imgTry2 {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px; */
+    margin: auto;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  #logo {
+    display: block;
+    margin: auto;
+    width: auto;
+  }
+
+#newFilms{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightpink;
+}
+
+/* #image-container{
+  display: block;
+  margin: auto;
+  width: 100%
+} */
+
+.row {
+  display: flex;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}

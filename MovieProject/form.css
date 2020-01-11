@@ -41,8 +41,10 @@ img{
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 260px;
-  height: 260px;
+  /* width: 260px;
+  height: 260px; */
+  width: 280px;
+  height: 280px;
   border-radius: 5px;
   /* background: rgba(3,3,3,0.25); */
   background: rgba(3,3,3,0.65); 
@@ -58,11 +60,11 @@ img{
   line-height: 18px;
   top: 3px;
   right: 3px;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   text-align: center;
   border-radius: 10px;
-  opacity: .2;
+  opacity: .6;
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all 2s ease-in-out;
   -o-transition: all 2s ease-in-out;
@@ -77,7 +79,7 @@ img{
 h1{
   font-family: 'Open Sans Condensed', sans-serif;
   position: relative;
-  margin-top: 0px;
+  margin-top: 10px;
   text-align: center;
   font-size: 40px;
   color: #ddd;
@@ -92,7 +94,7 @@ input{
   position: relative;
   width: 80%;
   display: block;
-  margin: 9px auto;
+  margin: 12px auto;
   font-size: 17px;
   color: #fff;
   padding: 8px;
@@ -196,6 +198,20 @@ a:hover{
   color: rgba(255,255,255,.6);
 }
 
+/* #container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 280px;
+  height: 280px;
+  border-radius: 5px;
+  background: rgba(3,3,3,0.65); 
+  box-shadow: 1px 1px 50px rgb(122, 122, 122);
+  display: none;
+} */
 #forgotten-container{
   position: absolute;
   top: 0;
@@ -203,14 +219,50 @@ a:hover{
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 260px;
-  height: 180px;
+  width: 280px;
+  height: 200px;
   border-radius: 10px;
-  background: rgba(3,3,3,0.25);
-  box-shadow: 1px 1px 50px #000;
+  background: rgba(3,3,3,0.65);
+  /* box-shadow: 1px 1px 50px #000; */
+  box-shadow: 1px 1px 50px rgb(122, 122, 122);
   display: none;
 }
 
 .orange-btn{
   background: rgba(87,198,255,.5);
+}
+
+#signup{
+  width: 100%;
+  position: absolute;
+  font-size: 14px;
+  font-family: 'Hind', sans-serif;
+  color: rgba(255, 255, 255, 0.747);
+  text-align: center;
+  /* left: 10px;
+  top: 7px; */
+  cursor: pointer;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#signup:hover{
+  color: white;
+}
+
+#signup-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 260px;
+  height: 260px;
+  border-radius: 10px;
+  background: rgba(3,3,3,0.65);
+  box-shadow: 1px 1px 50px #000;
+  display: none;
 }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="HomePage.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- <a class="navbar-brand" href="#" onclick="GoToHomePage()">CineMania</a> -->
+                <a class="navbar-brand" href="#" onclick="location.href='page.html';return false;">CineMania</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Page 1</a></li>
+            </ul>
+            
+            <form class="navbar-form navbar-right" action="/action_page.php">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search" name="search">
+                  <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                  </div>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="form.html" onclick="location.href='form.html';return false;"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+                </ul>
+            </form>
+            
+         </div>
+    </nav>
+                
+    <!-- <div class="container"> -->
+        <!-- <div class="image-container">
+                <img id="logo" src="jag_cz_movie_theater_retro_shutterstock_594132752-1529438777-6045_mid.jpg" />
+        </div> -->
+    <!-- </div> -->
+
+    <img id="logo" src="jag_cz_movie_theater_retro_shutterstock_594132752-1529438777-6045_mid.jpg" />
+
+    <div class="row">
+        <div class="column">
+          <img id="imgTry" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY_7si0A-LWWkPwgdxB33ZDfFRl0XF8XJ_DAVFowoX6YKs7opt&s"  >
+        </div>
+        <div class="column">
+          <img id="imgTry2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbaho6OPE1ZuJN5hffFcnpxjUKv_hksyT17i2tjFjcHD9K3zFy&s" >
+        <div class="column"></div>
+    </div>
+    
+    <!-- <div id="newFilms" class="row">
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY_7si0A-LWWkPwgdxB33ZDfFRl0XF8XJ_DAVFowoX6YKs7opt&s" >
+                <div class="caption">
+                  <h3><strong>Maleficent</strong></h3>
+                  <p>...</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbaho6OPE1ZuJN5hffFcnpxjUKv_hksyT17i2tjFjcHD9K3zFy&s" >
+                      <div class="caption">
+                        <h3><strong>Maleficent 2</strong></h3>
+                        <p>...</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                      </div>
+                    </div>
+            </div>
+    </div> -->
+    
+</body>
+

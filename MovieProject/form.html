@@ -19,22 +19,21 @@
     <div id="container">
         <h1>Log In</h1>
         <span class="close-btn" onclick="closeBtn()">
-          <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"></img>
+          <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
         </span>
       
         <form>
           <input type="email" name="email" placeholder="E-mail">
           <input type="password" name="pass" placeholder="Password">
-          <a href="#">Log in</a>
+          <a href="HomePage.html" onclick="location.href='page.html';return false;">Log in</a>
           <div id="remember-container">
             <input type="checkbox" id="checkbox-2-1" class="checkbox" checked="checked"/>
             <span id="remember">Remember me</span>
             <span id="forgotten" onclick="forgottenPass()">Forgotten password</span>
+            
           </div>
-          <div id="signup-container">
-            <span id="signup">Sign up</span>
-          </div>
-      </form>
+          <div id="signup" onclick="showSignupForm()">Don't have an account? <strong>Sign up</strong></div>
+        </form>
      </div>
       
       <!-- Forgotten Password Container -->
@@ -53,7 +52,7 @@
       <!-- Sign Up Container -->
       <div id="signup-container">
           <h1>Sign up</h1>
-          <span id="close" class="close-btn" onclick="closeBtn()">
+          <span id="close" class="close-btn" onclick="closeSignUpBtn()">
            <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
          </span>
        
@@ -61,7 +60,7 @@
            <input type="email" name="email" placeholder="E-mail">
            <input type="password" name="password" placeholder="Password">
            <input type="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
-           <a href="#" class="orange-btn">Get new password</a>
+           <a href="#" class="orange-btn">Sign up</a>
        </form>
        </div>
  
